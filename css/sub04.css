@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+li {
+    list-style: none;
+}
+image {
+    vertical-align: top;
+    display: block;
+}
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'SUIT-Regular';
+}
+
+/* header */
+header {
+    width: 100%;
+}
+.logo {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 150px;
+    height: 70px;
+}
+.nav {
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav > ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+.nav > ul > li > a {
+    padding-right: 70px;
+    font-weight: bold;
+}
+.nav > ul > li > a:hover {
+    color: #FFBF00;
+}
+.nav > .user {
+    width: 20%;
+    height: 60px;
+    text-align: right;
+    line-height: 60px;
+}
+.user > a {
+    font-weight: bold;
+    margin-left: 50px;
+}
+.user > a:hover {
+    color: #FFBF00;
+}
+
+/* 상단 메인 이미지 */
+section {
+    width: 100%;
+}
+.mainimg {
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+.mainimg img{
+    width: 100%;
+    height: 850px;
+}
+.mainimg h1 {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    font-size: 40px;
+}
+.yellow_f {
+    color: #FFBF00;
+}
+
+/* 캐릭터 */
+.character {
+    width: 70%;
+    height: 1250px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.container {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    margin-top: 100px;
+}
+.container > .human img {
+    width: 190px;
+    height: 190px;
+}
+.saybox {
+    width: 80%;
+    height: 190px;
+    position: relative;
+    margin-left: 20px;
+}
+.saybox img {
+    width: 100%;
+}
+.talk {
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+.yellow {
+    color: #FFBF00;
+    font-size: 25px;
+}
+.saybox2 {
+    width: 80%;
+    height: 190px;
+    position: relative;
+    margin-right: 20px;
+}
+.saybox2 img {
+    width: 100%;
+}
+.talk2 {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+.human2 img {
+    width: 190px;
+    height: 190px;
+}
+.recommend {
+    width: 35%;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+    background-color: #FFBF00;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+/* 비전 박스 */
+.vision_box {
+    width: 100%;
+    height: 1700px;
+}
+.vision_img1 {
+    background-image: url(../img/story/1.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+.vision_img1 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    width: 35%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.526);
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+.yellow2 {
+    color: #ffbf00;
+}
+.vision_img2 {
+    background-image: url(../img/story/2.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.vision_img2 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    width: 35%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.526);
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+.vision_img3{
+    background-image: url(../img/story/3.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.vision_img3 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    width: 35%;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.526);
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+article h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 160px;
+}
+.block{
+    background-color: #FFBF00;
+}
+
+/* 이지 박스 */
+.easy_box {
+    width: 100%;
+    height: 1130px;
+    background-color: #fffae9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #FFBF00;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.imgbox {
+    margin-top: 50px;
+}
+.imgbox img {
+    width: 150px;
+    height: 150px;
+}
+.textbox {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.center {
+    width: 100%;
+    height: 90px;
+    background-color: #FFBF00;
+    line-height: 90px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 마지막 이미지 */
+.last {
+    width: 100%;
+    height: 900px; 
+    margin-top: 200px;
+    position: relative;
+}
+.last_img {
+    width: 100%;
+}
+.last_img img {
+    width: 100%;
+    height: 900px; 
+}
+.last > h1 {
+    width: 40%;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+.yellow3 {
+    color: #FFBF00;
+    font-size: 37px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+}
+.footer1 {
+    width: 100%;
+    border-bottom: 1px solid #dad8d6;
+}
+.footer1_1 {
+    width: 80%;
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 15px;
+}
+.footer1 img {
+    width: 150px;
+    height: 70px;
+}
+.footer2 {
+    width: 90%;
+    font-weight: bold;
+}
+.footer2 > ul {
+    display: flex;
+    justify-content: right;
+    line-height: 70px;
+}
+.footer2 > ul > li > a {
+    padding-left: 70px;
+}
+.bottom_footer {
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+.footer3 {
+    width: 50%;
+}
+.footer3-text {
+    line-height: 25px;
+}
+.footer3-sns {
+    margin-top: 25px;
+}
+.footer3-sns a {
+    margin-right: 10px;
+}
+.footer3-sns img {
+    width: 40px;
+    height: 40px;
+}
+.footer4 {
+    width: 50%;
+    text-align: right;
+    line-height: 25px;
+}
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}

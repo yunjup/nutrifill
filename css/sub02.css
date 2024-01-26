@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+li {
+    list-style: none;
+}
+image {
+    vertical-align: top;
+    display: block;
+}
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'SUIT-Regular';
+}
+
+/* header */
+header {
+    width: 100%;
+    border-bottom: 1px solid #dad8d6;
+}
+.logo {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 150px;
+    height: 70px;
+}
+.nav {
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav > ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+.nav > ul > li > a {
+    padding-right: 70px;
+    font-weight: bold;
+}
+.nav > ul > li > a:hover {
+    color: #FFBF00;
+}
+.nav > .user {
+    width: 20%;
+    height: 60px;
+    text-align: right;
+    line-height: 60px;
+}
+.user > a {
+    font-weight: bold;
+    margin-left: 50px;
+}
+.user > a:hover {
+    color: #FFBF00;
+}
+
+/* 카테고리 10개 */
+.category_container {
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.category_text {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+.category {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.category_imgbox {
+    width: 90px;
+    height: 90px;
+    background-color: #FFBF00;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.category_img a {
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+.category_img img {
+    width: 60px;
+    height: 60px;
+    transition: all 0.2s linear;
+}
+.category_img img:hover {
+    transform: scale(1.2);
+}
+.text {
+    text-align: center;
+    margin-top: 10px;
+}
+.list_button {
+    width: 20%;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* 제품 리스트 */
+.product_list {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.title_text {
+    width: 100%;
+}
+.yellow {
+    color: #FFBF00;
+}
+.new_list {
+    width: 100%;
+}
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.list_box {
+    width: 23%;
+    margin-right: 10px;
+}
+.img_box {
+    width: 100%;
+    border: 2px solid #FFBF00;
+    border-radius: 10px;
+}
+.img_box > a > img {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.box {
+    display: flex;
+    margin-top: 18px;
+}
+.text_box {
+    width: 92%;
+    font-weight: bold;
+}
+.heart {
+    width: 10%;
+    margin-top: 5px;
+    text-align: right;
+}
+.heart img {
+    width: 20px;
+    height: 20px;
+}
+.gray {
+    color: rgb(94, 94, 94);
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.detail {
+    width: 22%;
+    background-color: #d3d0d0;
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* footer */
+footer {
+    width: 100%;
+}
+.footer1 {
+    width: 100%;
+    border-top: 1px solid #dad8d6;
+    border-bottom: 1px solid #dad8d6;
+}
+.footer1_1 {
+    width: 80%;
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 15px;
+}
+.footer1 img {
+    width: 150px;
+    height: 70px;
+}
+.footer2 {
+    width: 90%;
+    font-weight: bold;
+}
+.footer2 > ul {
+    display: flex;
+    justify-content: right;
+    line-height: 70px;
+}
+.footer2 > ul > li > a {
+    padding-left: 70px;
+}
+.bottom_footer {
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+.footer3 {
+    width: 50%;
+}
+.footer3-text {
+    line-height: 25px;
+}
+.footer3-sns {
+    margin-top: 25px;
+}
+.footer3-sns a {
+    margin-right: 10px;
+}
+.footer3-sns img {
+    width: 40px;
+    height: 40px;
+}
+.footer4 {
+    width: 50%;
+    text-align: right;
+    line-height: 25px;
+}
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}
