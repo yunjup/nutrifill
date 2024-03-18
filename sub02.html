@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품목록</title>
+
+    <!--  css  -->
+    <link rel="stylesheet" href="css/sub02.css">
+
+    <!-- script -->
+    <script src="script/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <!--  header  -->
+    <header>
+        <!--  로고  -->
+        <div class="logo">
+           <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
+        </div>
+        <!--  상단 네비  -->
+        <nav class="nav">
+            <ul class="nav_menu">
+                <li><a href="./sub01.html">건강설문</a></li>
+                <li><a href="./sub02.html">제품목록</a></li>
+                <li><a href="./sub03.html">고객후기</a></li>
+                <li><a href="./sub04.html">브랜드스토리</a></li>
+            </ul>
+            <ul class="user">
+                <li><a href="./login.html">로그인</a></li>
+                <li><a href="./signup.html">회원가입</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="hamburger-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </header>
+
+    <!--  카테고리 10개  -->
+    <article class="category_container">
+        <h2 class="category_text">건강 고민별 카테고리</h2>
+        <div class="category">
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category1.png" alt="category1"></a>
+                </div>
+                <div class="text"><a href="#">간건강</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category2.png" alt="category2"></a>
+                </div>
+                <div class="text"><a href="#">여성건강</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category3.png" alt="category3"></a>
+                </div>
+                <div class="text"><a href="#">피로/활력</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category4.png" alt="category4"></a>
+                </div>
+                <div class="text"><a href="#">장건강</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category5.png" alt="category5"></a>
+                </div>
+                <div class="text"><a href="#">뼈건강</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category6.png" alt="category6"></a>
+                </div>
+                <div class="text"><a href="#">다이어트</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category7.png" alt="category7"></a>
+                </div>
+                <div class="text"><a href="#">피부</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category8.png" alt="category8"></a>
+                </div>
+                <div class="text"><a href="#">눈건강</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category9.png" alt="category9"></a>
+                </div>
+                <div class="text"><a href="#">임신/수유</a></div>
+            </div>
+            <div class="category_img">
+                <div class="category_imgbox">
+                    <a href="#"><img src="./img/icon/category10.png" alt="category10"></a>
+                </div>
+                <div class="text"><a href="#">면역</a></div>
+            </div>
+        </div>
+        <div class="list_button"><a href="#">제품 전체 보러가기></a></div>
+    </article>
+    
+    <!-- 제품 리스트 -->
+    <article class="product_list">
+        <h2 class="title_text">총 <span class="yellow">32</span>개</h2>
+        <div class="new_list">
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/1.png" alt="제품1"></a>
+                    </div> 
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">내추럴이믹스</span><br>
+                            프로바이오틱스17 맥스<br>
+                            <div class="detail">장</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/2.png" alt="제품2"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">로니웰</span><br>
+                            로니엘 파워마그네슘<br>
+                            <div class="detail">피로</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/3.png" alt="제품3"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">엔라이즈</span><br>
+                            네추럴 프리미엄 비타<br>
+                            <a href="#"><div class="detail">피로</div></a>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/4.png" alt="제품4"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">인테로</span><br>
+                            조인트 글루코사민 컴플렉스<br>
+                            <div class="detail">뼈/관절</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/5.png" alt="제품5"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">바이오뉴랩</span><br>
+                            뉴트립맥스 촉촉 히알루론산<br>
+                            <div class="detail">피부</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/6.png" alt="제품6"></a>
+                    </div>
+                    <a href="#"></a><div class="box">
+                        <div class="text_box">
+                            <span class="gray"><a href="#">씨엔씨네추럴</span><br>
+                            CNC 프리미엄 감마리놀</a><br>
+                            <div class="detail">여성</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/7.png" alt="제품7"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">바디스콥</span><br>
+                            바디스콥 블랙&비오틴<br>
+                            <div class="detail">다이어트</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/8.png" alt="제품8"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">바이오뉴랩</span><br>
+                            뉴트립맥스 릴렐스테아닌<br>
+                            <div class="detail">피로</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/9.png" alt="제품9"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">승명</span><br>
+                            네추럴라이즈 더 유산균<br>
+                            <div class="detail">장</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/10.png" alt="제품10"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">네추럴이믹스</span><br>
+                            듀얼 초임계 루테인 아스타잔<br>
+                            <div class="detail">눈</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/11.png" alt="제품11"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">바이오뉴랩</span><br>
+                            뉴트립맥스 슬림 카테킨<br>
+                            <div class="detail">다이어트</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/12.png" alt="제품12"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">로니웰</span><br>
+                            로니웰 리버케어 밀크씨슬<br>
+                            <div class="detail">간</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/13.png" alt="제품13"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">내추럴이믹스</span><br>
+                            네추럴이믹스 프로폴리스<br>
+                            <div class="detail">면역</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/14.png" alt="제품14"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">인테로</span><br>
+                            인테로 철분 헤마 부스터<br>
+                            <div class="detail">임신/수유</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/15.png" alt="제품15"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">내추럴이믹스</span><br>
+                            이튼튼 맥스 프리미엄<br>
+                            <div class="detail">뼈/관절</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/16.png" alt="제품16"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">바이오뉴랩</span><br>
+                            뉴트립맥스 눈건강 비타민<br>
+                            <div class="detail">눈</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/17.png" alt="제품17"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">메디포스트</span><br>
+                            건강해질 여성 튼튼 유산균<br>
+                            <div class="detail">여성</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/18.png" alt="제품18"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">승명</span><br>
+                            더 퍼펙트 스킨 히알루론산<br>
+                            <div class="detail">피부</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/19.png" alt="제품19"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">내추럴이믹스</span><br>
+                            rTG 오메가3 미니 캡슐<br>
+                            <div class="detail">눈</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/20.png" alt="제품20"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">리노브</span><br>
+                            액티폴릭<br>
+                            <div class="detail">임신/수유</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/21.png" alt="제품21"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">로니웰</span><br>
+                            바이탈케어 비타민C 1000<br>
+                            <div class="detail">다이어트</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/22.png" alt="제품22"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">뉴와이즈 코리아</span><br>
+                            뉴. 엠에스엠 관절 건강A<br>
+                            <div class="detail">뼈/관절</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/23.png" alt="제품23"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">건강여행</span><br>
+                            뉴트립맥스 간건강 밀크씨슬<br>
+                            <div class="detail">간</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/24.png" alt="제품24"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">한국오츠카</span><br>
+                            슈퍼B 에너지 콤플렉스<br>
+                            <div class="detail">피로</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>    
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/25.png" alt="제품25"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">이노바인코리아</span><br>
+                            푸름웰니스 프리미엄 아연<br>
+                            <div class="detail">면역</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/26.png" alt="제품26"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">네이처드림</span><br>
+                            네이처드림 눈건강 루테인<br>
+                            <div class="detail">눈</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/27.png" alt="제품27"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">승명</span><br>
+                            프리미엄 엽산800 업AB<br>
+                            <div class="detail">임신/수유</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/28.png" alt="제품28"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">선택하라</span><br>
+                            선택하라 비타민D 3000IU<br>
+                            <div class="detail">뼈/관절</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>
+            <div class="list">
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/29.png" alt="제품29"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">뉴트립맥스</span><br>
+                            뉴트립맥스 이지비타민C<br>
+                            <div class="detail">피부</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/30.png" alt="제품30"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">온푸드</span><br>
+                            리얼 프리미얼 셀레늄 300<br>
+                            <div class="detail">면역</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/31.png" alt="제품31"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">브리지소사이어티</span><br>
+                            스트레스 케어 테아닌 250<br>
+                            <div class="detail">피로</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div>
+                <div class="list_box">
+                    <div class="img_box">
+                        <a href="#"><img src="./img/list/32.png" alt="제품32"></a>
+                    </div>
+                    <a href="#"><div class="box">
+                        <div class="text_box">
+                            <span class="gray">내추럴이믹스</span><br>
+                            오메가3+비타민D1200<br>
+                            <div class="detail">눈</div>
+                        </div>
+                        <div class="heart"><img src="./img/icon/heart.png" alt="heart"></div>
+                    </div></a>
+                </div> 
+            </div>
+        </div>
+    </article> 
+
+    <!--  footer  -->
+    <footer class="top_footer">
+        <div class="footer1">
+            <div class="footer1_1">
+                <div class="footer_logo">
+                    <a href="#"><img src="./img/logo.png" alt="로고"></a>
+                </div>
+                <div class="footer2">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">규제특례고지</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_footer">
+        <div class="footer3">
+            <div class="footer3-text">
+                (주) 뉴트리필 박윤주<br>
+                대구광역시 달서구 성지로123 I 사업자등록번호 123-45-67890<br>
+                통신판매업신고번호 : 1234-대구달서-5678<br>
+                건강기능식품판매업 신고번호 :  제 1234-5678901호<br>
+                Copyright 2021 oo.Allrights reserved.<br>
+            </div>
+            <div class="footer3-sns">
+                <a href="#"><img src="./img/icon/sns3f.png" alt="sns1"></a>
+                <a href="#"><img src="./img/icon/sns2k.png" alt="sns2"></a>
+                <a href="#"><img src="./img/icon/sns1i.png" alt="sns3"></a>
+            </div>
+        </div>
+        <div class="footer4">
+            고객센터 > <br><br>
+            <span class="number">1833 - 1234</span><br><br>
+            평일 오전 9:00 - 오후 18:00 (점심시간 12:00 - 13:00)<br>
+            nutrifill@gmail.com
+        </div>
+    </footer>  
+
+ 
+
+
+</body>
+</html>
