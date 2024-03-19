@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+li {
+    list-style: none;
+}
+image {
+    vertical-align: top;
+    display: block;
+}
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'SUIT-Regular';
+}
+
+/* header */
+header {
+    width: 100%;
+    border-bottom: 1px solid #dad8d6;
+}
+.logo {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 150px;
+    height: 70px;
+}
+.nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.nav li {
+    font-weight: bold;
+}
+.nav li a:hover {
+    color: #FFBF00;
+}
+.nav_menu {
+    display: flex;
+    width: 75%;
+}
+.nav_menu li {
+    padding: 25px 45px;
+}
+.nav_menu li:first-child {
+   padding-left: 0;
+}
+.user {
+    display: flex;
+    width: 25%;
+    justify-content: right;
+}
+.user li {
+    padding: 25px 30px;
+}
+.user li:nth-child(2){
+    padding-right: 0;
+}
+.hamburger-button {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+    right: 10%;
+    top: 9%;
+    display: none;
+}
+.hamburger-button span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #3e3e3e;
+}
+.hamburger-button span:nth-child(1) {
+    top: 0;
+}
+.hamburger-button span:nth-child(2) {
+    top: 8px;
+}
+.hamburger-button span:nth-child(3) {
+    top: 16px;
+}
+
+/* 회원가입 - 정보 */
+section {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+h1 {
+    width: 465px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.join > form > input {
+    width: 465px;
+    height: 60px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.join > form > input[type=tel] {
+    width: 350px;
+}
+.join > form > input[type=number] {
+    width: 350px;
+    background-color: #D9D9D9;
+    border: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.join > form > button {
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: none; 
+    background-color: #bab8b8;
+    font-weight: bold;
+}
+.join > form > button > a {
+    font-size: 12px;
+}
+.bt1 {
+    
+    color: #fff;
+}
+/* 회원가입 - 동의 */
+.agree {
+    width: 100%;
+    margin-top: 50px;
+}
+.all_agree {
+    width: 465px;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+    line-height: 60px;
+    margin-bottom: 50px;
+}
+.all_agree > form > input[type=radio] {
+   margin-right: 20px;
+}
+.agree > form {
+    text-align: left;
+    width: 465px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.agree > form > .list {
+    display: flex;
+    margin-bottom: 25px;
+}
+.agree > form > .list > .top {
+    width: 92%;
+}
+.agree > form > .list > .top > input[type=radio] {
+    margin-right: 20px;
+}
+.agree > form > .list > .view {
+    width: 8%;
+    text-align: right;
+}
+.join_button {
+    width: 465px;
+    height: 60px;
+    background-color: #FFBF00;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    line-height: 60px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.naver {
+    width: 465px;
+    height: 60px;
+    background-color: #00C73C;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bold;  
+}
+.text_W {
+    width: 100%;
+    color: white;
+}
+.container {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    line-height: 60px;
+}
+.container > img {
+    width: 60px;
+    height: 60px;
+}
+.kakao {
+    width: 465px;
+    height: 60px;
+    background-color: #FAE100;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.text_b {
+    width: 100%;
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    margin-top: 80px;
+}
+.footer1 {
+    width: 100%;
+    border-top: 1px solid #dad8d6;
+    border-bottom: 1px solid #dad8d6;
+}
+.footer1_1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 15px;
+}
+.footer1 img {
+    width: 150px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.footer2 {
+    width: 90%;
+    font-weight: bold;
+}
+.footer2 > ul {
+    display: flex;
+    justify-content: right;
+    line-height: 90px;
+}
+.footer2 > ul > li > a {
+    padding: 10px 40px;
+}
+.bottom_footer {
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+.footer3 {
+    width: 50%;
+}
+.footer3-text {
+    line-height: 25px;
+}
+.footer3-sns {
+    margin-top: 25px;
+}
+.footer3-sns a {
+    margin-right: 10px;
+}
+.footer3-sns img {
+    width: 40px;
+    height: 40px;
+}
+.footer4 {
+    width: 50%;
+    text-align: right;
+    line-height: 25px;
+}
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* mediaquery */
+/* 화면 너비 0 ~ 1060px */
+@media screen and (max-width: 1060px) {
+    .category_img:last-child, .category_img:nth-last-child(2) {
+        display: none;
+    }
+}
+
+/* 화면 너비 0 ~ 980px */
+@media screen and (max-width: 980px) {
+    .nav {
+        flex-direction: column;
+    }
+    .nav li {
+        border-bottom: 1px solid #fff;
+        font-size: 30px;
+    }
+    .nav li a {
+        color: #fff;
+    }
+    .nav li a:hover {
+       color: #fff;
+    }
+    .nav_menu {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        position: fixed;
+        top:0;
+        left: 0;
+        padding: 120px 0;
+        height: 600px;
+        background-color: #ffbf00;
+        z-index: 1;
+    }
+    .nav_menu li:first-child {
+        border-top: 1px solid #fff;
+        padding-left: 45px;
+     }
+    .user {
+        display: none;
+    }
+    .hamburger-button {
+        display: block;
+        z-index: 9999;
+    }
+    .nav_menu.active,
+    .user.active {
+        display: flex;
+    }
+}
+
+/* 화면 너비 0 ~ 780px */
+@media screen and (max-width: 780px) {
+    .footer1_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer2 {
+        width: 100%; 
+        text-align: center;
+    }
+    .footer2 > ul {
+    justify-content: center;
+    }
+}
+
+/* 화면 너비 0 ~ 640px */
+@media screen and (max-width: 640px) {
+    .footer2 > ul > li > a {
+        padding: 10px 20px;
+    }
+    .bottom_footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer3 {
+        width: 100%;
+        order: 2;
+        margin-top: 40px;
+    }
+    .footer4 {
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+}
+
+/* 화면 너비 0 ~ 480px */
+@media screen and (max-width: 480px) {
+
+}
